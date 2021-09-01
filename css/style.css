@@ -4,14 +4,15 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     /* I have many troubles defining borders, margins and such,
     so i'm changing temporarly body background to a higher 
     contrast color  */
-    /* background-color: #f6f8f9; */
-    background-color: red;
+    background-color: #f6f8f9;
+    /* background-color: red; */
 }
 
 /* Header */
@@ -19,17 +20,20 @@ body {
 header {
     margin-top: 1px;
     background-color: white;
-    height: 60px;
+    height: 80px;
 }
 
 .logo {
-    padding: 5px;
-    padding-left: 15px;
+    padding: 5px 0px 5px 15px;
+}
+
+.logo_text{
+    display: inline-block;
 }
 
 h1 {
-    display: inline-block;
     font-size: 3.5rem;
+    padding-bottom: 0px;
 }
 
 /* Main */
@@ -66,7 +70,7 @@ h1 {
 .task_list {
     background-color: white;
     width: 1000px;
-    height: 1500px;
+    height: 500px;
     margin: auto;
     margin-top: 1px;
     margin-bottom: 20px;
@@ -79,13 +83,15 @@ h1 {
 /* List */
 
 .dlist_title {
-    font-size: 2rem;
-    font-weight: 900;
+    padding-top: 25px;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 li {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
+    padding-bottom: 5px;
 }
 
 .list_entry {
@@ -94,25 +100,25 @@ li {
 
 /* check/cross marks */
 
-.mark{
+.mark {
     margin-left: 5px;
     font-size: 0.5rem;
     padding: 3px 4px;
     border-radius: 50%;
-
 }
-.check{ 
+
+.check {
     border: 2px solid #65c0a9;
     color: #65c0a9;
 }
 
-.cross{
+.cross {
     border: 2px solid #eb5952;
     color: #eb5952;
-   }
+}
 
-   /* tags */
-   
+/* tags */
+
 .tag {
     /* Using black background for prototyping */
     background-color: black;
@@ -122,26 +128,26 @@ li {
     padding: 3px 5px;
 }
 
-.blue{
+.blue {
     background-color: #45abea;
 }
 
-.purple{
+.purple {
     background-color: #9c72e4;
 }
 
-.lightgreen{
+.lightgreen {
     background-color: #64c0a9;
 }
 
-.orange{
+.orange {
     background-color: #f29e33;
 }
 
-.fuchsia{
+.fuchsia {
     background-color: #d863a1;
 }
 
-.mustard{
-    background-color: #b0c926;   
+.mustard {
+    background-color: #b0c926;
 }
