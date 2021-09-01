@@ -43,10 +43,33 @@ header {
     border-top-right-radius: 5px;
 }
 
-.management{
+.management {
+    font-size: 0.75rem;
     margin: 20px 2.5px;
+    padding: 0.3rem;
+    border-radius: 5px;
 }
 
-#task_button{
-    margin-left: 20px;
+#task_button {
+    background-color: #47adf1;
+    margin-left: 50px;
+    border: 1px solid #47adf1;
+    color: white;
+}
+
+#section_button {
+    background-color: white;
+    border: 1px solid #c5cbd0;
+    color: #c5cbd0;
+}
+
+.tasks {
+    background-color: white;
+    width: 1000px;
+    height: 1500px;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
