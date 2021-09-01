@@ -32,12 +32,6 @@ h1 {
     font-size: 3.5rem;
 }
 
-.logo_text {
-    
-    /* font-weight: 900; */
-    /* margin-bottom: 10px; */
-}
-
 /* Main */
 
 .buttons {
@@ -69,13 +63,40 @@ h1 {
     color: #c5cbd0;
 }
 
-.tasks {
+.task_list {
     background-color: white;
     width: 1000px;
     height: 1500px;
     margin: auto;
     margin-top: 1px;
     margin-bottom: 20px;
+    padding-left: 50px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    list-style: none;
+}
+
+/* List */
+
+.dlist_title {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+li {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.checkmark {
+    margin-left: 5px;
+    font-size: 0.5rem;
+    border: 2px solid #65c0a9;
+    color: #65c0a9;
+    padding: 3px 4px;
+    border-radius: 50%;
+}
+
+.list_entry {
+    margin-left: 5px;
 }
