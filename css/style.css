@@ -100,3 +100,12 @@ li {
 .list_entry {
     margin-left: 5px;
 }
+
+.tag {
+    /* Using black background for prototyping */
+    background-color: black;
+    font-size: 0.6rem;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 5px;
+}
