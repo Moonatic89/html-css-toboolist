@@ -88,19 +88,31 @@ li {
     font-weight: 500;
 }
 
-.checkmark {
-    margin-left: 5px;
-    font-size: 0.5rem;
-    border: 2px solid #65c0a9;
-    color: #65c0a9;
-    padding: 3px 4px;
-    border-radius: 50%;
-}
-
 .list_entry {
     margin-left: 5px;
 }
 
+/* check/cross marks */
+
+.mark{
+    margin-left: 5px;
+    font-size: 0.5rem;
+    padding: 3px 4px;
+    border-radius: 50%;
+
+}
+.check{ 
+    border: 2px solid #65c0a9;
+    color: #65c0a9;
+}
+
+.cross{
+    border: 2px solid #eb5952;
+    color: #eb5952;
+   }
+
+   /* tags */
+   
 .tag {
     /* Using black background for prototyping */
     background-color: black;
@@ -108,4 +120,28 @@ li {
     color: white;
     border-radius: 10px;
     padding: 3px 5px;
+}
+
+.blue{
+    background-color: #45abea;
+}
+
+.purple{
+    background-color: #9c72e4;
+}
+
+.lightgreen{
+    background-color: #64c0a9;
+}
+
+.orange{
+    background-color: #f29e33;
+}
+
+.fuchsia{
+    background-color: #d863a1;
+}
+
+.mustard{
+    background-color: #b0c926;   
 }
