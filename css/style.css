@@ -1,3 +1,5 @@
+/* Utilities */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -5,12 +7,12 @@
 }
 
 body {
-    background-color: #f6f8f9;
+    /* I have many troubles defining borders, margins and such,
+    so i'm changing temporarly body background to a higher 
+    contrast color  */
+    /* background-color: #f6f8f9; */
+    background-color: red;
 }
-
-/* Utilities */
-
-/* Body */
 
 /* Header */
 
@@ -28,8 +30,23 @@ header {
     font-size: 3.5rem;
     font-weight: 900;
     margin-bottom: 10px;
-    /* height: 100px;
-  line-height: 100px;
-  text-align: center;
-  border: 2px dashed #f69c55; */
+}
+
+/* Main */
+
+.buttons {
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.management{
+    margin: 20px 2.5px;
+}
+
+#task_button{
+    margin-left: 20px;
 }
