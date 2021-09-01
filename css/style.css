@@ -3,3 +3,33 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #f6f8f9;
+}
+
+/* Utilities */
+
+/* Body */
+
+/* Header */
+
+header {
+    margin-top: 1px;
+    background-color: white;
+}
+
+.logo {
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.logo_text {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+    /* height: 100px;
+  line-height: 100px;
+  text-align: center;
+  border: 2px dashed #f69c55; */
+}
